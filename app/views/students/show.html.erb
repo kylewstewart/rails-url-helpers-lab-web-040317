@@ -1,1 +1,3 @@
 <h1><%= @student.to_s %></h1>
+<div> This student is currently <%= link_to @student.status, activate_student_path %>. </p>
+<br>
